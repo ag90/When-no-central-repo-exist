@@ -13,7 +13,7 @@ public class CrossBrowserTesting {
   @Parameters({"Browser"})
   public void Test(String browser) {
 	  
-	  if (browser.equalsIgnoreCase("Chrome")) 
+	  if (browser.equalsIgnoreCase("CHROME")) 
 	  {
 		  
 		  System.setProperty("webdriver.chrome.driver", "E:\\chromedriver_win32\\chromedriver.exe");
